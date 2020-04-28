@@ -55,7 +55,9 @@ ROOT_URLCONF = 'localLibDjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'catalog/templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -18,7 +18,7 @@ class Book(models.Model):
     genre = models.ManyToManyField(Genre, help_text='Select a genre.')
 
     def __str__(self):
-        return self.title
+        return self.title   
 
     def get_absolute_url(self):
         return reverse('book-detail', args=[str(self.id)])

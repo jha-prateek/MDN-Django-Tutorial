@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+    padding: 0.1%;
+}
+
+.sidebar-nav{
+    margin-top: 20px;
+    padding: 10%;
+    list-style: none;
+}
