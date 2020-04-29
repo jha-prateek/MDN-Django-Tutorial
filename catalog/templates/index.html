@@ -11,4 +11,7 @@
     <li><strong>Copies available:</strong> {{ numAvailable }}</li>
     <li><strong>Authors:</strong> {{ numAuthors }}</li>
   </ul>
+
+  <p>You have visited this page {{ visits }}{% if visits == 1 %} time{% else %} times{% endif %}.</p>
+
 {% endblock %}
